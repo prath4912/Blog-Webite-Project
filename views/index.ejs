@@ -1,0 +1,13 @@
+<%- include('components/header'); %>
+    <h1 id="ho1">Home</h1>
+    
+    <% for(var i =0 ; i<posts.length; i++){ %>
+        <p> <%= posts[i].title %> </p>
+        <p> <%= posts[i].des %> </p>
+
+
+    <% } %>
+
+
+<%- include('components/footer'); %>
+   

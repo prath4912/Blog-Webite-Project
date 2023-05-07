@@ -1,0 +1,15 @@
+<%- include('components/header'); %>
+    <h1>Compose</h1>
+    <form class="container" action="/compose" method="post">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Title</label>
+            <input type="text" name="title" class="form-control" id="exampleFormControlInput1" placeholder="Enter Title Here">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1"  class="form-label">Description</label>
+            <textarea class="form-control" name="descrip" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+    <button type="submit" class="btn btn-primary">Publish</button>
+</form>
+<%- include('components/footer'); %>
+   
